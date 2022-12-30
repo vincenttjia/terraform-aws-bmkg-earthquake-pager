@@ -5,7 +5,7 @@
 
 ```terraform
 module "earthquake_pager" {
-    source = "https://github.com/vincenttjia/terraform-aws-bmkg-earthquake-pager?ref=v0.0.1"
+    source = "https://github.com/vincenttjia/terraform-aws-bmkg-earthquake-pager?ref=v0.0.2"
 
     name = "bmkg-gempa-notifier"
 

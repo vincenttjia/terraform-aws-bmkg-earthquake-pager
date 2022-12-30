@@ -9,7 +9,7 @@ module "lambda" {
   architectures   = var.lambda_arhictecture
   timeout         = 15
 
-  source_path = "./src"
+  source_path = "${path.module}/src"
 
   create_role        = true
   attach_policy_json = true

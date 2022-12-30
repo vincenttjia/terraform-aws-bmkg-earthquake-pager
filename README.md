@@ -1,11 +1,18 @@
 # terraform-aws-bmkg-earthquake-pager
 
+[![Terraform Version](https://img.shields.io/badge/Terraform%20Version->=1.0.0,<=1.3.6-blue.svg)](https://releases.hashicorp.com/terraform/)
+[![Release](https://img.shields.io/github/release/vincenttjia/terraform-aws-bmkg-earthquake-pager.svg)](https://github.com/vincenttjia/terraform-aws-bmkg-earthquake-pager/releases)
+[![Last Commit](https://img.shields.io/github/last-commit/vincenttjia/terraform-aws-bmkg-earthquake-pager.svg)](https://github.com/vincenttjia/terraform-aws-bmkg-earthquake-pager/commits/master)
+[![Issues](https://img.shields.io/github/issues/vincenttjia/terraform-aws-bmkg-earthquake-pager.svg)](https://github.com/vincenttjia/terraform-aws-bmkg-earthquake-pager/issues)
+[![Pull Requests](https://img.shields.io/github/issues-pr/vincenttjia/terraform-aws-bmkg-earthquake-pager.svg)](https://github.com/vincenttjia/terraform-aws-bmkg-earthquake-pager/pulls)
+[![License](https://img.shields.io/github/license/vincenttjia/terraform-aws-bmkg-earthquake-pager.svg)](https://github.com/vincenttjia/terraform-aws-bmkg-earthquake-pager/blob/master/LICENSE)
+
 # Example
 [Simple](./examples/)
 
 ```terraform
 module "earthquake_pager" {
-    source = "https://github.com/vincenttjia/terraform-aws-bmkg-earthquake-pager?ref=v0.0.1"
+    source = "https://github.com/vincenttjia/terraform-aws-bmkg-earthquake-pager?ref=v0.0.2"
 
     name = "bmkg-gempa-notifier"
 

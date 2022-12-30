@@ -45,6 +45,8 @@ let declareIncident = async (msg, gempa) => {
 
     let incidentRecordArn = response.incidentRecordArn
 
+    gempa.Shakemap = "https://data.bmkg.go.id/DataMKG/TEWS/" + gempa.Shakemap
+
     var params = {
         arn: incidentRecordArn,
         summary: JSON.stringify(gempa),
